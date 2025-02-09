@@ -1,0 +1,17 @@
+@tailwind components;
+
+:root {
+  --calendar-bg: theme(colors.white);
+  --calendar-border: theme(colors.gray.200);
+}
+
+.dark {
+  --calendar-bg: theme(colors.gray.800);
+  --calendar-border: theme(colors.gray.700);
+}
+
+@layer components {
+  .calendar-base {
+    @apply bg-[var(--calendar-bg)] border border-[var(--calendar-border)];
+  }
+} 

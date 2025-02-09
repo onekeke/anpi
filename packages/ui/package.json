@@ -6,7 +6,8 @@
     "./calendar": "./src/calendar.tsx",
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
+    "./code": "./src/code.tsx",
+    "./calendar.css": "./src/calendar.css"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
@@ -28,6 +29,7 @@
   "dependencies": {
     "dayjs": "^1.11.13",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwind-variants": "^0.3.1"
   }
 }
